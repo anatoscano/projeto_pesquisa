@@ -15,7 +15,7 @@ def numeros_ordenados(nome_ficheiro_aleatorio, nome_ficheiro_ordenado):
             ficheiros.write(str(numero) + '\n')
 
 
-quantidades = [100, 1000, 10000, 100000, 1000000]
+quantidades = [100, 1000, 10000, 100000]
 
 for quantidade in quantidades:
     nome_ficheiro_aleatorio = f'numeros_{quantidade}.txt'
