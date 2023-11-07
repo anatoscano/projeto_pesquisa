@@ -1,5 +1,3 @@
-from analise_complexidade import complexidade
-
 def pesquisa_sequencial(lista,n):
     for item in lista:
         if item == n:
